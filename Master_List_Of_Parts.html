@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Master_List_of_Parts</title>
+	<script src="Master_List_of_Parts.js"></script>
+</head>
+<style>
+	.inner {
+		margin: auto;
+		background: #fdfdff;
+		margin-top: 200px;
+		border: 10px solid #f5ad1e;
+	}
+
+	.wrapper {
+		min-height: 100vh;
+		display: flex;
+		background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl_z3gZGK7eQh2xyggz1aKR-gHgEos6cwVUA&usqp=CAU')
+	}
+
+	button {
+		border: none;
+		border: 2px solid #f5ad1e;
+		;
+		color: #f5ad1e;
+		background: #0d0d0d;
+		width: 100px;
+		height: 30px;
+		margin: 10px;
+		border-radius: 8px;
+	}
+
+	input {
+		margin: 2px;
+	}
+</style>
+
+<body>
+	<center>
+		<div class="wrapper">
+			<div class="inner">
+
+				<h5><i>List of Part _ Penna</i>r</h5>
+				<br>
+				<table>
+					<tr>
+						<td>
+							<h6>Enter the Part No :</h6>
+						</td>
+						<td> <input id="partNoInput" style="border-radius: 8px;color:black;width: 200px;height:30px;"
+								type="number" placeholder="Enter the part number"></td>
+					</tr>
+				</table>
+				<button onclick="GetDetail()">Get Details
+				</button>
+				<a href="AddDetails.html"><button type="submit">Add Details</button></a>
+
+			</div>
+		</div>
+	</center>
+</body>
+</html>
+
